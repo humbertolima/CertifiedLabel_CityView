@@ -1,0 +1,32 @@
+﻿<meta name="viewport" content="width=device-width, initial-scale=1">
+
+@{
+    ViewBag.Title = "Get_Signature_Certified_Number";
+}
+
+<h2>Get_Signature_Certified_Number</h2>
+
+<form class="form-inline" method="post" action="Get_Signature_Certified_Number">
+    <div class="container-fluid">
+        <h4>Parameters</h4>
+        <hr />
+    </div>
+    <div class="form-group">
+        <label for="CertifiedNumber">Certified Number:</label>
+        <input name="CertifiedNumber" type="text" class="form-control" id="CertifiedNumber" placeholder="">
+    </div>
+
+    <input type="submit" value="Submit" />
+</form>
+
+@*<div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+
+

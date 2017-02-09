@@ -1,0 +1,29 @@
+﻿<meta name="viewport" content="width=device-width, initial-scale=1">
+
+@{
+    ViewBag.Title = "Create_Label_By_RecordID";
+}
+
+<h2>Create_Label_By_RecordID</h2>
+
+<form class="form-inline" @*method="post"*@ action="Get_Create_Label_By_RecordID">
+    <div class="container-fluid">
+        <h4>Parameters</h4>
+        <hr />
+
+        <div class="form-group">
+            <label for="RecordID">RecordID:</label>
+            <input name="RecordID" type="text" class="form-control" id="RecordID" placeholder="">
+        </div>
+
+        <input type="submit" value="Submit" />
+    </div>
+</form>
+
+@*<div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

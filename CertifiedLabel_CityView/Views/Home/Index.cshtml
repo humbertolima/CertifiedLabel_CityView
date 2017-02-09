@@ -1,0 +1,48 @@
+﻿<meta name="viewport" content="width=device-width, initial-scale=1">
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>CERTIFIED LABEL - CITYVIEW</h1>
+    <p class="lead">Application to be used by CityView to obtain label and signature for letters created through the interface.</p>
+    @*<p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+</div>
+
+<div class="row">
+    
+    <div class="col-md-4">
+        <h2>Label By RecordID</h2>
+        <p>
+            For CityView application you can generate the label for a letter created through the interface.  The parameter required is
+            the RecordID that identifies the letter to be sent. You will be able to print this
+            label and store it as a pdf file named 'CertifiedNumber_Label'
+
+        </p>
+        <h2>@Html.ActionLink("By RecordID", "Create_Label_By_RecordID", "CertifiedLabel_CityView")</h2>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>*@
+    </div>
+    
+    <div class="col-md-4">
+        <h2>Get Signature for a Certified Number</h2>
+        <p>
+            You can bring the signature for a letter you have sent to your customer - Proof of Delivery. For this process you need to provide
+            the Certified Number to bring only the pdf file containing the signature as proof that the letter have been delivered.
+
+        </p>
+        <h2>@Html.ActionLink("Signature for a Certified Number", "Signature_Certified_Number", "CertifiedLabel_CityView")</h2>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>*@
+    </div>
+
+    <div class="col-md-4">
+        <h2>Reprint a Certified Number</h2>
+        <p>
+            You can bring the signature for a letter you have sent to your customer - Proof of Delivery. For this process you need to provide
+            the Certified Number to bring only the pdf file containing the signature as proof that the letter have been delivered.
+
+        </p>
+        <h2>@Html.ActionLink("Reprint a Certified Number", "Reprint_Certified_Number", "CertifiedLabel_CityView")</h2>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>*@
+    </div>
+
+</div>

@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+
+
+#dropdown-menu-2btn-6 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-6 .nav .link,
+#dropdown-menu-2btn-6 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#dropdown-menu-2btn-6 .navbar,
+#dropdown-menu-2btn-6 .dropdown-menu {
+  background: #27aae0;
+}
+#dropdown-menu-2btn-6 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-6 .dropdown-menu a:hover,
+#dropdown-menu-2btn-6 .dropdown-menu a:focus {
+  background: #1e9fd4;
+}
+#dropdown-menu-2btn-6 .navbar-toggler {
+  color: #ffffff;
+}
+#header1-1 .btn {
+  font-family: 'Roboto Condensed', sans-serif;
+}
